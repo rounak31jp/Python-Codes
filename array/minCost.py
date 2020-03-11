@@ -11,9 +11,6 @@ Output: 2
 We can change 3rd element to 5 incurring 0 cost.
 We can change the 4th element to 5 ( 1 -> 3 -> 5 ) incurring 0 cost.
 Now the array is, 2 4 5 5 5
-
-
-
 We can change the 1st element to 5 (2 -> 4 -> 5 ) incurring unit cost.
 We can change the 2nd element to 5 incurring unit cost.
 Final array is, 5 5 5 5 5
