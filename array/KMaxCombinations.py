@@ -1,6 +1,7 @@
 K maximum sum combinations from two arrays
 Given two equally sized arrays (A, B) and N (size of both arrays).
-A sum combination is made by adding one element from array A and another element of array B. Display the maximum K valid sum combinations from all the possible sum combinations.
+A sum combination is made by adding one element from array A and another element of array B. 
+Display the maximum K valid sum combinations from all the possible sum combinations.
 
 Examples:
 
