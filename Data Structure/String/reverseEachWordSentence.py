@@ -15,3 +15,15 @@ def reverseWordSentence(Sentence):
   
 Sentence = "Rounak Agarwal"
 print(reverseWordSentence(Sentence))
+
+
+
+
+method 2
+
+def reverseWordSentence(Sentence): 
+  
+    return ' '.join(word[::-1] for word in Sentence.split(" ")) 
+  
+Sentence = "Rounak Agarwal"
+print(reverseWordSentence(Sentence))
