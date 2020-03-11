@@ -1,3 +1,5 @@
+
+
 Minimum cost to make all array elements equal
 Given an array arr[] consisting of N positive integers, the task is to make all values of this array equal to some integer value 
 with minimum cost after performing below operations any number of times (possibly zero).
