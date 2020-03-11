@@ -16,8 +16,7 @@ def printChar(string, n):
     for i in range(0, n):  
   
         # If frequency of current character is even 
-        if (freq[ord(string[i]) - 
-                 ord('a')] % 2 == 0): 
+        if (freq[ord(string[i]) - ord('a')] % 2 == 0): 
             print(string[i], end = "") 
           
 if __name__ == '__main__': 
