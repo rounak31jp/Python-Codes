@@ -1,13 +1,12 @@
 Check if a given string is a rotation of a palindrome
-
-Given a string, check if it is a rotation of a palindrome. For example your function should return true for “aab” as it is a rotation of “aba”.
+Given a string, check if it is a rotation of a palindrome. 
+For example your function should return true for “aab” as it is a rotation of “aba”.
 
 Examples:
 
 Input:  str = "aaaad"
 Output: 1  
 // "aaaad" is a rotation of a palindrome "aadaa"
-
 Input:  str = "abcd"
 Output: 0
 // "abcd" is not a rotation of any palindrome.
@@ -16,8 +15,6 @@ A Simple Solution is to take the input string, try every possible rotation of it
 Following is the implementation of this approach.
 
 
-# Python program to check if a given string is a rotation
-# of a palindrome
 
 # A utility function to check if a string str is palindrome
 def isPalindrome(string):
