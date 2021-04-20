@@ -39,7 +39,7 @@ def solution(s1):
     consnt_count=count-vowel_count
     
     if(vowel_count-consnt_count>1 or consnt_count-vowel_count>1):
-        print("No Such String")
+        return("No Such String")
         
     if(vowel_count>consnt_count):
         itr=min(vowel_count,consnt_count)
@@ -62,4 +62,4 @@ def solution(s1):
             for i in range(itr):
                 answer=answer+vowel_str[i]+consnt_str[i]
 
-    print(answer)
+    return(answer)
